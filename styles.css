@@ -1,0 +1,310 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+body {
+ background-color: rgb(12, 12, 66);
+ color: white;
+}
+nav {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ height: 50px;
+ background-color: rgb(21, 21, 67);
+}
+nav ul {
+ display: flex;
+ justify-content: center;
+}
+nav ul li {
+ list-style: none;
+ margin: 0 23px;
+}
+nav ul li a{
+ text-decoration: none;
+ color: white;
+ 
+ }
+
+nav ul li a:hover{
+ color: rgb(135, 51, 184);
+ font-size: 1.04rem;
+ }  
+ main hr {
+     border: 0;
+     background-color: #9c97f1;
+     height: 1.2px;
+     margin: 40px 84px;
+ }
+
+.left{
+ font-size: 1.5rem;
+}
+
+.firstsection{
+ display: flex;
+ justify-content: space-around;
+ margin: 62px 0;
+ align-items: center;
+
+}
+.firstsection > div{
+ width: 40%;
+ 
+}
+.leftsection{
+ font-size: 3rem;
+}
+ .leftsection.btn{
+  background-color: purple;
+  border-radius: 3px;
+ 
+}
+.rightsection img {
+ width: 80%;
+ 
+ 
+}
+.purple{
+color: rgb(125, 58, 189);
+}
+textgray{
+ color: gray;
+}
+
+#element{
+ color: rgb(125, 58, 189);
+}
+.container{
+ 
+  max-width: 80vw;
+  margin: auto;
+  height: 30vh;
+}
+.container h2{
+ margin-bottom: 20px;
+}
+
+.skills {
+ width: 80%;
+ margin: 0 auto;
+ height: 30vh;
+ 
+}
+
+.skills-grid, .projects-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ gap: 2em;
+ margin-top: 2em;
+}
+
+.skill, .project {
+ background-color: rgb(125, 58, 189);
+ padding: 1em;
+ border-radius: 5px;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3, .project h3 {
+ margin: 0 0 1em;
+ 
+}
+
+.skill-bar {
+ background-color: #61dafb;
+ color: white;
+ padding: 0.5em;
+ border-radius: 5px;
+ text-align: right;
+ font-weight: bold;
+ 
+}
+
+
+.secondsection{
+ 
+ max-width: 80vw;
+ margin: auto;
+ height: 50vh;
+}
+.secondsection h1{
+ font-size: 1.9rem;
+}
+.secondsection .box{
+ background-color: white;
+ width: 77vw;
+ height: 2px;
+ margin: 56px 0;
+ display: flex;
+}
+.secondsection .vertical{
+ height: 93px;
+ width: 1px;
+ background-color: white;
+ margin: 0 160px;
+}
+.image-top{
+ width: 23px;
+ position: relative;
+ top: -32px;
+ left: -9px;
+}
+
+.vertical-title{
+ position: relative;
+ top: 75px;
+ width: 200px;
+ font-size: 14px;
+
+}
+.vertical-title{
+ position: relative;
+ top: 79px;
+ width: 200px;
+ font-size: 14px;
+}
+.vertical-des{
+ position: relative;
+ top: 86px;
+ color: gray;
+ width: 300px;
+ fornt-size: 9px;
+
+}
+.contact h2{
+ margin-left: 20vh;
+ height: 5rem;
+}
+
+form {
+ 
+ max-width: 800px;
+ margin: 0 auto;
+ text-align: left;
+ background-color:  rgb(125, 58, 189);
+ padding: 2em;
+ border-radius: 5px;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+form label {
+ display: block;
+ margin-bottom: 0.5em;
+ font-weight: bold;
+}
+
+form input, form textarea {
+ width: 100%;
+ padding: 0.5em;
+ margin-bottom: 1em;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+button {
+ padding: 0.7em 2em;
+ background-color: #61dafb;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 1em;
+}
+
+button:hover {
+ background-color: #21a1f1;
+}
+@media (max-width: 768px) {
+ nav ul li {
+     display: block;
+     margin: 10px 0;
+ }
+}
+footer {
+ background-color:rgb(12, 12, 66);
+ color: white;
+ 
+ text-align: center;
+}
+
+.footer-content {
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ gap: 2em;
+ padding-bottom: 1em;
+}
+
+.footer-section {
+ flex: 1;
+ min-width: 250px;
+}
+
+.footer-section h3 {
+ font-size: 1.5em;
+ margin-bottom: 0.5em;
+}
+
+.footer-section p, .footer-section ul {
+ font-size: 1em;
+ line-height: 1.5;
+}
+
+.footer-section ul {
+ list-style: none;
+ padding: 0;
+}
+
+.footer-section ul li {
+ margin-bottom: 0.5em;
+ 
+}
+
+.footer-section ul li a {
+ color: white;
+ text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+ text-decoration: underline;
+}
+
+.footer-section .socials {
+ margin-top: 1em;
+}
+
+.footer-section .socials a {
+ display: inline-block;
+ margin: 0 10px;
+ transition: transform 0.3s;
+}
+
+.footer-section .socials a:hover {
+ transform: scale(1.1);
+}
+
+.footer-bottom {
+ border-top: 1px solid #444;
+ padding-top: 
+ margin-top: 
+}
+
+.footer-bottom p {
+ margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+ .footer-content {
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .footer-section {
+     margin-bottom: 2em;
+ }
+}
+
